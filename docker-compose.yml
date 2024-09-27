@@ -1,0 +1,7 @@
+version: '2.27'
+services:
+  bot:
+    build: .
+    command: python main.py
+    volumes:
+      - .:/Test-task-tg-bot
